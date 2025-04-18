@@ -29,6 +29,7 @@ Bonus points: If you use Langchain (or similar tools to add memory to the system
 Prerequisites
 Python 3.8 or above
 Setup Instructions
+
 Step 1: Clone or download the Repository (if emailed)
 git clone https://github.com/your-repo-url.git
 cd project_name
@@ -43,9 +44,13 @@ source env/bin/activate  # On Windows, use `env\Scripts\activate`
 Using conda
 conda create --name project_env python=3.8
 conda activate project_env
+
 Step 3: Install Requirements
+
 pip install -r requirements.txt
+
 Step 4: Set Up Environment Variables
+
 Create a .env file in the root directory and add your API keys in a way it can be accessed in the app.
 
 Step 5: Run the Flask Backend
@@ -53,11 +58,13 @@ Navigate to the flask_app directory and start the Flask server:
 
 cd flask_app
 python app.py
+
 Step 6: Run the Streamlit Frontend
 In a new terminal, run the Streamlit app:
 
 cd streamlit_app
 streamlit run app.py
+
 Step 7: Open the Application
 Open your web browser and go to http://localhost:8501. You can now interact with the system by entering your query.
 
