@@ -66,6 +66,7 @@ flask_app/: Contains the backend Flask API and utility functions.
 streamlit_app/: Contains the Streamlit front-end code.
 .env: Stores API keys (make sure this file is not included in version control).
 requirements.txt: Lists the project dependencies.
+
 Task Instructions for Candidates
 You are required to complete the following:
 
