@@ -52,6 +52,11 @@ pip install -r requirements.txt
 Step 4: Set Up Environment Variables
 
 Create a .env file in the root directory and add your API keys in a way it can be accessed in the app.
+Save all the necessary API keys as follows:
+1. SERPER_API_KEY
+2. AZURE_OPENAI_API_KEY
+3. AZURE_OPENAI_ENDPOINT
+4. AZURE_OPENAI_DEPLOYMENT_NAME
 
 Step 5: Run the Flask Backend
 Navigate to the flask_app directory and start the Flask server:
